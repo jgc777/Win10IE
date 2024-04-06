@@ -1,8 +1,4 @@
 # Win10IE
-
-- [WWW](http://tinyurl.com/Win10IE-web)
-- [GitHub](http://tinyurl.com/Win10IE)
-
  Vuelve a activar Internet Explorer en Windows 10/ 11. No sirve para reactivar la función de abrir con Internet Explorer o establecer como navegador predeterminado.
  
 ## Uso
