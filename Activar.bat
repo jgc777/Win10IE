@@ -1,20 +1,16 @@
 @echo off
-echo Cierre la ventana para cancelar.
+echo Cierre la ventana para cancelar . . .
 pause
 cd Recursos
-echo cmd /q /c "echo CreateObject("InternetExplorer.Application").Visible=true>ie.vbs && ie.vbs && del /q ie.vbs">ie.bat
-iexpress /n ie.sed
-del /q ie.bat
-xcopy /y "ie.exe" "%appdata%"
-del /q "ie.exe"
-del /q "%appdata%\Microsoft\Windows\Start Menu\Programs\Accessories\Internet Explorer.lnk"
-rename "ien.lnk" "Internet Explorer.lnk"
-xcopy /y "Internet Explorer.lnk" "%appdata%\Microsoft\Windows\Start Menu\Programs\"
-rename "Internet Explorer.lnk" "ien.lnk"
+echo CreateObject("InternetExplorer.Application").Visible=true>ie.vbs
+move /y "ie.vbs" "%appdata%"
+del /q "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Accessories\Internet Explorer.lnk"
+del /q "%appdata%\Microsoft\Windows\Start Menu\Programs\Internet Explorer.lnk"
+nircmd shortcut "%appdata%\ie.vbs" "~$folder.programs$" "Internet Explorer" "" "~$folder.programfiles$\Internet Explorer\iexplore.exe"
 cls
 echo Se ha activado Internet Explorer. Puede ejecutarlo desde inicio.
 echo Para agregar el comando ie.exe (o ie) ejecute como administrador
-echo "IE.InstalarCMD.bat" en la carpeta CMD.
+echo "ActivarCMD.bat".
 echo.
 pause
 exit

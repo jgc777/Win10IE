@@ -1,8 +1,7 @@
 @echo off
-del /q ie.exe.symlink
-mklink ie.exe %appdata%\ie.exe
+mklink ie.vbs %appdata%\ie.vbs
 cls
-echo Se ha añadido el comando ie.exe (o ie).
+echo Se ha agregado el comando ie.vbs (o ie).
 echo.
 pause
 exit

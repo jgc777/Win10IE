@@ -25,12 +25,12 @@ InstallPrompt=
 DisplayLicense=
 FinishMessage=
 TargetName=ie.exe
-FriendlyName=IE
-AppLaunched=cmd.exe /c ie.bat
+FriendlyName=Win10IE
+AppLaunched=cmd.exe /c ie.vbs
 PostInstallCmd=<none>
 AdminQuietInstCmd=
 UserQuietInstCmd=
-FILE0="ie.bat"
+FILE0="ie.vbs"
 [SourceFiles]
 SourceFiles0=.\
 [SourceFiles0]
