@@ -1,2 +1,5 @@
 theme: jekyll-theme-midnight
 show_downloads: "true"
+github:
+  owner_url: http://jgc777.github.io/
+  owner_name: Jgc7
