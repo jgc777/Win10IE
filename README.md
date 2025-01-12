@@ -8,5 +8,6 @@
  2. Abrir Internet Explorer desde el menú de inicio o la barra de búsqueda.
  
 ## Comando
-
  Para activar el comando ie.exe (o ie) símplemente instale normalmente la utilidad y ejecute ActivarCMD.bat con privilegios de administrador.
+## Licencia
+[![License](https://img.shields.io/github/license/jgc777/Win10IE?style=for-the-badge)](./LICENSE)
