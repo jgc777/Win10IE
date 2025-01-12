@@ -1,4 +1,6 @@
 # Win10IE
+![Windows Terminal](https://img.shields.io/badge/Windows%20Terminal-%234D4D4D.svg?style=for-the-badge&logo=windows-terminal&logoColor=white)
+
  Vuelve a activar Internet Explorer en Windows 10/ 11. No sirve para reactivar la función de abrir con Internet Explorer o establecer como navegador predeterminado.
  
 ## Uso
